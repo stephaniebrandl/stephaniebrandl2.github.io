@@ -17,9 +17,14 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Random texts.
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I grew up in [southwestern Germany](https://www.suedpfalz-tourismus.de/startseite.html?no_cache=1) at the border to France where the weather is good and people like to drink local wine out of [funny-looking glasses](https://de.wikipedia.org/wiki/Dubbeglas) while chatting and eating [tarte flambée](https://en.wikipedia.org/wiki/Flammekueche).  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I moved to Berlin to study mathematics and social science. 
+There the sky is usually grey, there is no wine and people are mostly grumpy. 
+Nevertheless, the city grew on me and I stayed a little longer to complete my PhD in the [machine learning group at TU Berlin](https://www.ml.tu-berlin.de/menue/machine_learning/) where I developed new methods for dynamic settings in computational neuroscience and natural language processing. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+
+I still enjoy travelling the world and getting to know different cultures by staying a little longer in one place and get in contact with locals. This is why I studied a year in Spain, went to Brazil for an internship, to Cuba for a summer school and to Colombia for social work.
+
+I recently joined [Coastal](https://coastalcph.github.io) in Copenhagen as a Postdoctoral researcher where I will work on fairness and interpretability in NLP in particular on studying additional attributes that cause bias in NLP tasks and gender-sensitive language in pre-trained language models.
