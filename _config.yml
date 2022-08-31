@@ -256,9 +256,9 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 imagemagick:
   enabled: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
-    - 280
-    - 800
-    - 1400
+    - 240
+    - 400
+    - 700
   input_directories:
     - assets/img/
   input_formats:
