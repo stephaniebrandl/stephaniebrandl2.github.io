@@ -7,6 +7,8 @@ years: [2022, 2021, 2020, 2019, 2015]
 nav: true
 nav_order: 1
 ---
+[\*]() denotes equal contribution
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
