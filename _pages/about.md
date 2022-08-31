@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PostDoc at <a href='#'>CoAStaL</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>up in the ivory tower</p>
+    <p>Lyngbyvej 2</p>
+    <p>2100 Copenhagen</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,10 +21,16 @@ I grew up in [southwestern Germany](https://www.suedpfalz-tourismus.de/startseit
 
 I moved to Berlin to study mathematics and social science. 
 There the sky is usually grey, there is no wine and people are mostly grumpy. 
-Nevertheless, the city grew on me and I stayed a little longer to complete my PhD in the [machine learning group at TU Berlin](https://www.ml.tu-berlin.de/menue/machine_learning/) where I developed new methods for dynamic settings in computational neuroscience and natural language processing. 
+Nevertheless, the city grew on me and I stayed a little longer to complete my PhD in 
+Machine Learning at [TU Berlin](https://www.ml.tu-berlin.de/menue/machine_learning/). 
+
+In the midst of my PhD I realized that I find language even more exciting than the 
+human brain which aligned well with [Coastal](https://coastalcph.github.io) in 
+Copenhagen where I joined last year as a PostDoc.  
+
+I currently work on fairness and 
+interpretability in NLP, also in combination with human reading (eye-tracking). 
+I am most interested in making NLP equally accessible and transparent for everyone .
 
 
 
-I still enjoy travelling the world and getting to know different cultures by staying a little longer in one place and get in contact with locals. This is why I studied a year in Spain, went to Brazil for an internship, to Cuba for a summer school and to Colombia for social work.
-
-I recently joined [Coastal](https://coastalcph.github.io) in Copenhagen as a Postdoctoral researcher where I will work on fairness and interpretability in NLP in particular on studying additional attributes that cause bias in NLP tasks and gender-sensitive language in pre-trained language models.
