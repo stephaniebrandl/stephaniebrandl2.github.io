@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PostDoc at <a href='#'>CoAStaL</a>.
+subtitle: PostDoc at <a href='https://coastalcph.github.io'>CoAStaL</a>.
 
 profile:
   align: right
