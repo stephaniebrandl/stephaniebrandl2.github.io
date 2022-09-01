@@ -219,7 +219,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: Brandl
-  first_name: [Stephanie, S.]
+  first_name: [Stephanie, S., S.*, Stephanie*]
 
   style: apa
   locale: en
