@@ -146,6 +146,13 @@
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.tldr %}
+            {% if entry.tldr contains '://' -%}
+            <a href="{{ entry.tldr }}" class="btn btn-sm z-depth-0" role="button">TL;DR</a>
+            {%- else -%}
+            <a href="{{ entry.tldr | prepend: '/assets/tldr/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">TL;DR</a>
+            {%- endif %}
+          {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
