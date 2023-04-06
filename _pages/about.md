@@ -25,8 +25,8 @@ Nevertheless, the city grew on me and I stayed a little longer to complete my Ph
 Machine Learning at [TU Berlin](https://www.ml.tu-berlin.de/menue/machine_learning/). 
 
 In the midst of my PhD I realized that I find language even more exciting than the 
-human brain which aligned well with [Coastal](https://coastalcph.github.io) in 
-Copenhagen where I joined last year as a PostDoc.  
+human brain which aligned well with [CoAStaL](https://coastalcph.github.io) in 
+Copenhagen where I joined as a PostDoc in 2021.  
 
 I currently work on fairness and 
 interpretability in NLP, also in combination with human reading (eye-tracking). 
