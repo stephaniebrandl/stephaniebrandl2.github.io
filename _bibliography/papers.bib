@@ -1,28 +1,49 @@
-@article{brandl2022every,
-  title={Every word counts: A multilingual analysis of individual human alignment with model attention},
-  author={Brandl, S. and Hollenstein N.},
-  journal={arXiv e-prints},
-  pages={arXiv--2210},
-  pdf={https://arxiv.org/pdf/2210.04963.pdf},
-  abbr={AACL},
-  selected={true},
-  year={2022},
-  code={https://github.com/stephaniebrandl/eyetracking-subgroups},
-  tldr={https://twitter.com/StephanieBrandl/status/1574712904175259648?s=20&t=rSziizmyafl5IxqjOgsOeA},
-  abstract={Human fixation patterns have been shown to correlate strongly with Transformer-based attention. Those correlation analyses are usually carried out without taking into account individual differences between participants and are mostly done on monolingual datasets making it difficult to generalise findings. In this paper, we analyse eye-tracking data from speakers of 13 different languages reading both in their native language (L1) and in English as language learners (L2). We find considerable differences between languages but also that individual reading behaviour such as skipping rate, total reading time and vocabulary knowledge (LexTALE) influence the alignment between humans and models to an extent that should be considered in future studies.},
+@misc{ribeiro2023webqamgaze,
+      title={WebQAmGaze: A Multilingual Webcam Eye-Tracking-While-Reading Dataset},
+      author={Ribeiro, T. and Brandl, S. and Søgaard, A. and Hollenstein, N.},
+      year={2023},
+      eprint={2303.17876},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abbr={arxiv},
+      abstract = {We create WebQAmGaze, a multilingual low-cost eye-tracking-while-reading dataset, designed to support the development of fair and transparent NLP models. WebQAmGaze includes webcam eye-tracking data from 332 participants naturally reading English, Spanish, and German texts. Each participant performs two reading tasks composed of five texts, a normal reading and an information-seeking task. After preprocessing the data, we find that fixations on relevant spans seem to indicate correctness when answering the comprehension questions. Additionally, we perform a comparative analysis of the data collected to high-quality eye-tracking data. The results show a moderate correlation between the features obtained with the webcam-ET compared to those of a commercial ET device. We believe this data can advance webcam-based reading studies and open a way to cheaper and more accessible data collection. WebQAmGaze is useful to learn about the cognitive processes behind question answering (QA) and to apply these insights to computational models of language understanding.},
+      pdf={https://arxiv.org/pdf/2303.17876.pdf},
 }
 
 @article{brandl2022domain,
-  title={Domain-Specific Word Embeddings with Structure Prediction},
-  author={Brandl, S.* and Lassner, D.* and Baillot A. and Nakajima S.},
-  journal={arXiv e-prints},
-  pages={arXiv--2210},
-  pdf={https://arxiv.org/pdf/2210.04962.pdf},
-  abbr={TACL},
-  selected={true},
-  year={2022},
-  tldr={https://twitter.com/StephanieBrandl/status/1580128968673734661?s=20&t=dcHLxlBouKiUgVKE7FvlZw},
-  abstract={Complementary to finding good general word embeddings, an important question for representation learning is to find dynamic word embeddings, e.g., across time or domain. Current methods do not offer a way to use or predict information on structure between sub-corpora, time or domain and dynamic embeddings can only be compared after post-alignment. We propose novel word embedding methods that provide general word representations for the whole corpus, domain-specific representations for each sub-corpus, sub-corpus structure, and embedding alignment simultaneously. We present an empirical evaluation on New York Times articles and two English Wikipedia datasets with articles on science and philosophy. Our method, called Word2Vec with Structure Prediction (W2VPred), provides better performance than baselines in terms of the general analogy tests, domain-specific analogy tests, and multiple specific word embedding evaluations as well as structure prediction performance when no structure is given a priori. As a use case in the field of Digital Humanities we demonstrate how to raise novel research questions for high literature from the German Text Archive.},
+    author = {Lassner, D.* and Brandl, S.* and Baillot, A. and Nakajima, S.},
+    title = {Domain-Specific Word Embeddings with Structure Prediction},
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {11},
+    pages = {320-335},
+    year = {2023},
+    month = {03},
+    abstract = {Complementary to finding good general word embeddings, an important question for representation learning is to find dynamic word embeddings, for example, across time or domain. Current methods do not offer a way to use or predict information on structure between sub-corpora, time or domain and dynamic embeddings can only be compared after post-alignment. We propose novel word embedding methods that provide general word representations for the whole corpus, domain- specific representations for each sub-corpus, sub-corpus structure, and embedding alignment simultaneously. We present an empirical evaluation on New York Times articles and two English Wikipedia datasets with articles on science and philosophy. Our method, called Word2Vec with Structure Prediction (W2VPred), provides better performance than baselines in terms of the general analogy tests, domain-specific analogy tests, and multiple specific word embedding evaluations as well as structure prediction performance when no structure is given a priori. As a use case in the field of Digital Humanities we demonstrate how to raise novel research questions for high literature from the German Text Archive.},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00538},
+    url = {https://doi.org/10.1162/tacl\_a\_00538},
+    pdf = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00538/2075946/tacl\_a\_00538.pdf},
+    abbr={TACL},
+    selected={true},
+    code={https://github.com/stephaniebrandl/domain-word-embeddings},
+    tldr={https://twitter.com/StephanieBrandl/status/1580128968673734661?s=20&t=dcHLxlBouKiUgVKE7FvlZw},
+}
+
+@inproceedings{brandl-hollenstein-2022-every,
+    title={Every word counts: A multilingual analysis of individual human alignment with model attention},
+    author={Brandl, S. and Hollenstein, N.},
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = {},
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    pages = "72--77",
+    abbr={AACL},
+    selected={true},
+    year={2022},
+    pdf={https://aclanthology.org/2022.aacl-short.10.pdf},
+    code={https://github.com/stephaniebrandl/eyetracking-subgroups},
+    tldr={https://twitter.com/StephanieBrandl/status/1574712904175259648?s=20&t=rSziizmyafl5IxqjOgsOeA},
+    abstract={Human fixation patterns have been shown to correlate strongly with Transformer-based attention. Those correlation analyses are usually carried out without taking into account individual differences between participants and are mostly done on monolingual datasets making it difficult to generalise findings. In this paper, we analyse eye-tracking data from speakers of 13 different languages reading both in their native language (L1) and in English as language learners (L2). We find considerable differences between languages but also that individual reading behaviour such as skipping rate, total reading time and vocabulary knowledge (LexTALE) influence the alignment between humans and models to an extent that should be considered in future studies.},
 }
 
 @inproceedings{morger-etal-2022-cross,
@@ -38,6 +59,7 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2022.clasp-1.2",
     pages = "11--23",
+    abbr={CLASP},
     code = https://github.com/felixhultin/cross_lingual_relative_importance,
     abstract = "Relative word importance is a key metric for natural language processing. In this work, we compare human and model relative word importance to investigate if pretrained neural language models focus on the same words as humans cross-lingually. We perform an extensive study using several importance metrics (gradient-based saliency and attention-based) in monolingual and multilingual models, including eye-tracking corpora from four languages (German, Dutch, English, and Russian). We find that gradient-based saliency, first-layer attention, and attention flow correlate strongly with human eye-tracking data across all four languages. We further analyze the role of word length and word frequency in determining relative importance and find that it strongly correlates with length and frequency, however, the mechanisms behind these non-linear relations remain elusive. We obtain a cross-lingual approximation of the similarity between human and computational language processing and insights into the usability of several importance metrics.",
 }
@@ -49,22 +71,11 @@
   booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
   volume={16},
   pages={1368--1372},
+  month={06},
   year={2022},
+  abbr={ICWSM},
   tldr={https://twitter.com/StephanieBrandl/status/1534130582933880837?s=20&t=rSziizmyafl5IxqjOgsOeA},
   code={https://github.com/coastalcph/reliability-wild},
-}
-
-@inproceedings{eberle2022transformer,
-  title={Do Transformer Models Show Similar Attention Patterns to Task-Specific Human Gaze?},
-  author={Eberle, O.* and Brandl, S.* and Pilot, J. and S{\o}gaard, A.},
-  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  pages={4295--4309},
-  year={2022},
-  code={https://github.com/oeberle/task_gaze_transformers},
-  abbr={ACL},
-  selected={true},
-  abstract={Learned self-attention functions in state-of-the-art NLP models often correlate with human attention. We investigate whether self-attention in large-scale pre-trained language models is as predictive of human eye fixation patterns during task-reading as classical cognitive models of human attention. We compare attention functions across two task-specific reading datasets for sentiment analysis and relation extraction. We find the predictiveness of large-scale pre-trained self-attention for human attention depends on ‘what is in the tail’, e.g., the syntactic nature of rare contexts.Further, we observe that task-specific fine-tuning does not increase the correlation with human task-specific reading. Through an input reduction experiment we give complementary insights on the sparsity and fidelity trade-off, showing that lower-entropy attention vectors are more faithful.},
-  pdf={https://aclanthology.org/2022.acl-long.296.pdf},
 }
 
 @inproceedings{brandl-etal-2022-conservative,
@@ -87,11 +98,26 @@
   abbr={NAACL},
 }
 
+@inproceedings{eberle2022transformer,
+  title={Do Transformer Models Show Similar Attention Patterns to Task-Specific Human Gaze?},
+  author={Eberle, O.* and Brandl, S.* and Pilot, J. and S{\o}gaard, A.},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={4295--4309},
+  month={05},
+  year={2022},
+  code={https://github.com/oeberle/task_gaze_transformers},
+  abbr={ACL},
+  selected={true},
+  abstract={Learned self-attention functions in state-of-the-art NLP models often correlate with human attention. We investigate whether self-attention in large-scale pre-trained language models is as predictive of human eye fixation patterns during task-reading as classical cognitive models of human attention. We compare attention functions across two task-specific reading datasets for sentiment analysis and relation extraction. We find the predictiveness of large-scale pre-trained self-attention for human attention depends on ‘what is in the tail’, e.g., the syntactic nature of rare contexts.Further, we observe that task-specific fine-tuning does not increase the correlation with human task-specific reading. Through an input reduction experiment we give complementary insights on the sparsity and fidelity trade-off, showing that lower-entropy attention vectors are more faithful.},
+  pdf={https://aclanthology.org/2022.acl-long.296.pdf},
+}
+
 @inproceedings{hershcovich2022challenges,
   title={Challenges and Strategies in Cross-Cultural NLP},
   author={Hershcovich, D. and Frank, S. and Lent, H. and de Lhoneux, M. and Abdou, M. and Brandl, S. and Bugliarello, E. and Cabello Piqueras, L. and Chalkidis, I. and Cui, R. and Fierro, C. and Margatina, K. and Rust, P. and Søgaard, A.},
   booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   pages={6997--7013},
+  month={05},
   year={2022},
   abbr={ACL},
   selected={true},
@@ -107,6 +133,7 @@
   volume={13},
   number={5},
   pages={056012},
+  month={},
   year={2016},
   publisher={IOP Publishing}
 }
@@ -116,6 +143,7 @@
   author={Brandl, Stephanie and H{\"o}hne, Johannes and M{\"u}ller, Klaus-Robert and Samek, Wojciech},
   booktitle={2015 7th International IEEE/EMBS Conference on Neural Engineering (NER)},
   pages={224--227},
+  month={},
   year={2015},
   organization={IEEE}
 }
@@ -125,6 +153,7 @@
   author={Brandl, Stephanie and M{\"u}ller, Klaus-Robert and Samek, Wojciech},
   booktitle={The 3rd International Winter Conference on Brain-Computer Interface},
   pages={1--4},
+  month={},
   year={2015},
   organization={IEEE}
 }
@@ -132,6 +161,7 @@
 @misc{brandl2015distraction,
    author = {Brandl, Stephanie},
    title = {BCI under distraction: Motor imagery in a pseudo realistic environment},
+   month={},
    year = {2015},
    doi = {10.14279/depositonce-9827.2},
    note = {http://dx.doi.org/10.14279/depositonce-9827.2}
@@ -142,6 +172,7 @@
   author={Brandl, Stephanie and M{\"u}ller, Klaus-Robert and Samek, Wojciech},
   booktitle={2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
   pages={003742--003747},
+  month={},
   year={2016},
   organization={IEEE}
 }
@@ -152,6 +183,7 @@
   journal={Frontiers in neuroscience},
   volume={14},
   pages={967},
+  month={},
   year={2020},
   publisher={Frontiers}
 }
@@ -160,6 +192,7 @@
 	author = {Brandl, Stephanie and Haumann, Niels Trusbak and Radloff, Simjon and D{\"a}hne, Sven and Bonetti, Leonardo and Vuust, Peter and Brattico, Elvira and Grube, Manon},
 	title = {Fourier SPoC: A customised machine-learning analysis pipeline for auditory beat-based entrainment in the MEG\makebox[0pt][l]{}\phantom{}},
 	elocation-id = {2021.04.23.441088},
+	month={},
 	year = {2021},
 	doi = {10.1101/2021.04.23.441088},
 	publisher = {Cold Spring Harbor Laboratory},
@@ -173,6 +206,7 @@
   author={Brandl, Stephanie and Lassner, David},
   booktitle={Proceedings of the 1st International Workshop on Computational Approaches to Historical Language Change},
   pages={146--150},
+  month={},
   year={2019}
 }
 
@@ -180,13 +214,15 @@
   title={Balancing the composition of word embeddings across heterogenous data sets},
   author={Brandl, Stephanie and Lassner, David and Alber, Maximilian},
   journal={arXiv preprint arXiv:2001.04693},
+  month={},
   year={2020}
 }
 
 @article{brandl2020early,
   title={Early Corona Twitter Dataset},
   author={Brandl, Stephanie and Lassner, David},
-journal={HAL preprint hal-02861167},  
+  journal={HAL preprint hal-02861167},
+  month={},
   year={2020}
  
 }
@@ -194,6 +230,7 @@ journal={HAL preprint hal-02861167},
 @misc {brandl2020corona,
    author = {Brandl, Stephanie AND Lassner, David},
    title = {Corona Twitter Dataset: 16 February 2020 - 03 March 2020},
+   month={},
    year = {2020},
    doi = {10.14279/depositonce-10012},
    note = {http://dx.doi.org/10.14279/depositonce-10012}
