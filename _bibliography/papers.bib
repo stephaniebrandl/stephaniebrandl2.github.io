@@ -1,3 +1,18 @@
+@misc{brandl2023interplay,
+      title={On the Interplay between Fairness and Explainability},
+      author={Brandl, S. and Bugliarello, E. and Chalkidis, I.},
+      year={2024},
+      eprint={2310.16607},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abbr={Trust},
+      selected={true},
+      abstract={In order to build reliable and trustworthy NLP applications, models need to be both fair across different demographics and explainable. Usually these two objectives, fairness and explainability, are optimized and/or examined independently of each other. Instead, we argue that forthcoming, trustworthy NLP systems should consider both. In this work, we perform a first study to understand how they influence each other: do fair(er) models rely on more plausible rationales? and vice versa. To this end, we conduct experiments on two English multi-class text classification datasets, BIOS and ECtHR, that provide information on gender and nationality, respectively, as well as human-annotated rationales. We fine-tune pre-trained language models with several methods for (i) bias mitigation, which aims to improve fairness; (ii) rationale extraction, which aims to produce plausible explanations. We find that bias mitigation algorithms do not always lead to fairer models. Moreover, we discover that empirical fairness and explainability are orthogonal.},
+      pdf={https://arxiv.org/pdf/2310.16607.pdf},
+      tldr={https://x.com/StephanieBrandl/status/1717886845118197922?s=20},
+      poster={poster_trust24.pdf},
+}
+
 @misc{chalkidis2024llama,
       title={Llama meets EU: Investigating the European Political Spectrum through the Lens of LLMs},
       author={Chalkidis, I.* and Brandl, S.*},
@@ -10,6 +25,8 @@
       abstract={Instruction-finetuned Large Language Models inherit clear political leanings that have been shown to influence downstream task performance. We expand this line of research beyond the two-party system in the US and audit Llama Chat in the context of EU politics in various settings to analyze the model's political knowledge and its ability to reason in context. We adapt, i.e., further fine-tune, Llama Chat on speeches of individual euro-parties from debates in the European Parliament to reevaluate its political leaning based on the EUandI questionnaire. Llama Chat shows considerable knowledge of national parties' positions and is capable of reasoning in context. The adapted, party-specific, models are substantially re-aligned towards respective positions which we see as a starting point for using chat-based LLMs as data-driven conversational engines to assist research in political science.},
       pdf={https://arxiv.org/pdf/2403.13592.pdf},
       tldr={https://x.com/StephanieBrandl/status/1772213802391490804?s=20},
+      code={https://github.com/coastalcph/eu-politics-llms},
+      poster={poster_eullama.pdf},
 }
 
 @misc{brandl2024evaluating,
@@ -24,6 +41,8 @@
       abstract={Rationales in the form of manually annotated input spans usually serve as ground truth when evaluating explainability methods in NLP. They are, however, time-consuming and often biased by the annotation process. In this paper, we debate whether human gaze, in the form of webcam-based eye-tracking recordings, poses a valid alternative when evaluating importance scores. We evaluate the additional information provided by gaze data, such as total reading times, gaze entropy, and decoding accuracy with respect to human rationale annotations. We compare WebQAmGaze, a multilingual dataset for information-seeking QA, with attention and explainability-based importance scores for 4 different multilingual Transformer-based language models (mBERT, distil-mBERT, XLMR, and XLMR-L) and 3 languages (English, Spanish, and German). Our pipeline can easily be applied to other tasks and languages. Our findings suggest that gaze data offers valuable linguistic insights that could be leveraged to infer task difficulty and further show a comparable ranking of explainability methods to that of human rationales.},
       pdf={https://arxiv.org/pdf/2402.19133.pdf},
       tldr={https://twitter.com/StephanieBrandl/status/1763491432956858481},
+      code={https://github.com/stephaniebrandl/rationales-eyetracking-xai},
+      poster={poster_lrec24.pdf},
 }
 
 @inproceedings{cabello2023evaluating,
@@ -39,21 +58,9 @@
       abbr={EMNLP},
       abstract={Pretrained machine learning models are known to perpetuate and even amplify existing biases in data, which can result in unfair outcomes that ultimately impact user experience. Therefore, it is crucial to understand the mechanisms behind those prejudicial biases to ensure that model performance does not result in discriminatory behaviour toward certain groups or populations. In this work, we define gender bias as our case study. We quantify bias amplification in pretraining and after fine-tuning on three families of vision-and-language models. We investigate the connection, if any, between the two learning stages, and evaluate how bias amplification reflects on model performance. Overall, we find that bias amplification in pretraining and after fine-tuning are independent. We then examine the effect of continued pretraining on gender-neutral data, finding that this reduces group disparities, i.e., promotes fairness, on VQAv2 and retrieval tasks without significantly compromising task performance.},
       pdf={https://aclanthology.org/2023.emnlp-main.525.pdf},
-      selected={true},
+      selected={false},
       code={https://github.com/coastalcph/gender-neutral-vl},
       poster={poster_multimodal.pdf},
-}
-@misc{brandl2023interplay,
-      title={On the Interplay between Fairness and Explainability},
-      author={Brandl, S. and Bugliarello, E. and Chalkidis, I.},
-      year={2023},
-      eprint={2310.16607},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      abbr={arxiv},
-      abstract={In order to build reliable and trustworthy NLP applications, models need to be both fair across different demographics and explainable. Usually these two objectives, fairness and explainability, are optimized and/or examined independently of each other. Instead, we argue that forthcoming, trustworthy NLP systems should consider both. In this work, we perform a first study to understand how they influence each other: do fair(er) models rely on more plausible rationales? and vice versa. To this end, we conduct experiments on two English multi-class text classification datasets, BIOS and ECtHR, that provide information on gender and nationality, respectively, as well as human-annotated rationales. We fine-tune pre-trained language models with several methods for (i) bias mitigation, which aims to improve fairness; (ii) rationale extraction, which aims to produce plausible explanations. We find that bias mitigation algorithms do not always lead to fairer models. Moreover, we discover that empirical fairness and explainability are orthogonal.},
-      pdf={https://arxiv.org/pdf/2310.16607.pdf},
-      tldr={https://x.com/StephanieBrandl/status/1717886845118197922?s=20},
 }
 
 @inproceedings{eberle2023nurse,
@@ -171,6 +178,7 @@
   code={https://github.com/stephaniebrandl/gender-neutral-pronouns},
   tldr={https://twitter.com/StephanieBrandl/status/1519352654899691520?s=20&t=rSziizmyafl5IxqjOgsOeA},
   abbr={NAACL},
+  poster={poster_naacl22.pdf}
 }
 
 @inproceedings{eberle2022transformer,
