@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: PostDoc at <a href='https://coastalcph.github.io'>CoAStaL</a>.
+subtitle: PostDoc at the <a href='https://cpaicopenhagen.wordpress.com'>Center for Philosophy of AI</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>up in the ivory tower</p>
-    <p>Lyngbyvej 2</p>
-    <p>2100 Copenhagen</p>
+    <p>Karen Blixens Plads 8</p>
+    <p>2300 Copenhagen</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -30,7 +29,10 @@ Copenhagen where I joined as a PostDoc in 2021.
 
 I currently work on fairness and 
 interpretability in NLP, also in combination with human reading (eye-tracking). 
-I am most interested in making NLP equally accessible and transparent for everyone .
+I am most interested in making NLP equally accessible and transparent for everyone.  
+
+I recently joined the [Center for Philosophy of AI](https://cpaicopenhagen.wordpress.com) 
+where I get the chance for enlightening discussions about AI and hope to contribute to the field with a new perspective. 
 
 
 
